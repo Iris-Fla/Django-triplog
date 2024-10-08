@@ -8,6 +8,19 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <h2>トリップログ一覧</h2>
+    <table>
+      <tr>
+        <th>作成者</th>
+        <th>タイトル</th>
+        <th>作成日時</th>
+      </tr>
+      {% for i in all_data %}
+      <tr>
+        <td>{{ i.author }}</td>
+        <td>{{ i.title }}</td>
+        <td>{{ i.create_date }}</td>
+      </tr>
+      {% endfor %}
+    </table>
   </body>
 </html>

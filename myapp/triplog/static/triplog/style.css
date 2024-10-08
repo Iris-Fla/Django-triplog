@@ -2,3 +2,30 @@ body {
     padding: 10px;
     background-color: antiquewhite;
 }
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    table-layout: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+table th {
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+}
+
+table td {
+    border: solid 1px black;
+}
+
+.entry {
+    border-radius: 5px;
+    background-color: darkblue;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
